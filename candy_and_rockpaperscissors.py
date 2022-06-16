@@ -1,8 +1,8 @@
 # Candy Number Guessing 
 
-response1 = int(input("How many candies are left if the candy is evenly divided among 5 people : "))
-response2 = int(input("How many candies are left if the candy is evenly divided among 6 people : "))
-response3 = int(input("How many candies are left if the candy is evenly divided among 7 people : "))
+response1 = int(input("How many pieces are left if the candy is evenly divided among 5 people : "))
+response2 = int(input("How many pieces are left if the candy is evenly divided among 6 people : "))
+response3 = int(input("How many pieces are left if the candy is evenly divided among 7 people : "))
 print()
 
 if response1 == 2 and response2 == 3 and response3 == 2:
@@ -15,7 +15,6 @@ for i in range(1, 200):
     if i%5 == 2 and i%6 == 3 and i%7 == 2:
         print("The number of candies is", i)
 
-print()
 #Rock Paper Scissors
 import random
 
