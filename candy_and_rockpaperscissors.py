@@ -21,7 +21,7 @@ import random
 player_count, comp_count = 0, 0
 rps = ["rock", "paper", "scissors"]
 for i in range(5):
-	response = input("Rock Paper Scissors : ")
+	response = input("Rock Paper Scissors : ").lower()
 	computer = rps[random.randint(0, 2)]
 	if computer == response:
 		print("Tie!")
