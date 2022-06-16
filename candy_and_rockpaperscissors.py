@@ -6,14 +6,14 @@ response3 = int(input("How many pieces are left if the candy is evenly divided a
 print()
 
 if response1 == 2 and response2 == 3 and response3 == 2:
-    print("You've won the candies")
+    print("You've won the candy")
 else:
-    print("You've lost the candies")
+    print("You've lost the candy")
 print()
 
 for i in range(1, 200):
     if i%5 == 2 and i%6 == 3 and i%7 == 2:
-        print("The number of candies is", i)
+        print("The number of candy is", i)
 
 #Rock Paper Scissors
 import random
